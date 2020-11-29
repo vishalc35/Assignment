@@ -1,6 +1,6 @@
 package supermetrics.client;
 
-import supermetrics.client.modal.Post;
+import supermetrics.client.model.Post;
 
 import java.util.stream.Collector;
 

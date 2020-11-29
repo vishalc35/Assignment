@@ -3,9 +3,9 @@ package supermetrics.client;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import supermetrics.client.modal.Auth;
-import supermetrics.client.modal.Page;
-import supermetrics.client.modal.Response;
+import supermetrics.client.model.Auth;
+import supermetrics.client.model.Page;
+import supermetrics.client.model.Response;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

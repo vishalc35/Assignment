@@ -1,4 +1,4 @@
-package supermetrics.client.modal;
+package supermetrics.client.model;
 
 /**
  * Response class to get data from API

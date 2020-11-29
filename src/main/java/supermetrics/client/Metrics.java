@@ -2,8 +2,8 @@ package supermetrics.client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import supermetrics.client.modal.Page;
-import supermetrics.client.modal.Post;
+import supermetrics.client.model.Page;
+import supermetrics.client.model.Post;
 
 import java.util.ArrayList;
 import java.util.List;

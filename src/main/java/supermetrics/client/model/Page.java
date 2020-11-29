@@ -1,4 +1,4 @@
-package supermetrics.client.modal;
+package supermetrics.client.model;
 
 import java.util.List;
 

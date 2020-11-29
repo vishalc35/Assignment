@@ -6,8 +6,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import supermetrics.client.modal.Page;
-import supermetrics.client.modal.Response;
+import supermetrics.client.model.Page;
+import supermetrics.client.model.Response;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

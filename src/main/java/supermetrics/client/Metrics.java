@@ -18,7 +18,7 @@ public class Metrics {
 
     private final SuperMetricsClient client;
     private final ObjectMapper objectMapper = new ObjectMapper();
-    private static int PAGES_TO_FETCH = 5;
+    private static int PAGES_TO_FETCH = 10;
 
     public Metrics() {
         this(new SuperMetricsClient());

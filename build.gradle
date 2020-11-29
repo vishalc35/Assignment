@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'supermetrics.client'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.11.3")
+    implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.3")
+    testImplementation('org.mockito:mockito-all:1.10.19')
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+}
+test {
+    useJUnitPlatform()
+}
